@@ -19,10 +19,4 @@ function validarDNI(dni) {
 }
 
 
-let dni1 = '12345678Z';
-let dni2 = '98765432A';
-
-console.log(validarDNI(dni1)); 
-console.log(validarDNI(dni2));
-
 module.exports ={validarDNI}
